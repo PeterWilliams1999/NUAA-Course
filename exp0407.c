@@ -3,7 +3,7 @@
 int main(){
     int n;
     double sum=0,sum2;
-    scanf_s("&d",&n);
+    scanf_s("%d",&n);
     for(int i=1;i<=n;i++){
     sum2=1;
         for(int k=1;k<=n;k++){
