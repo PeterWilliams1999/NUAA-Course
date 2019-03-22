@@ -2,11 +2,9 @@
 #include<stdio.h>
 int main(){
     int n;
-    double sum=1,outputsum;
+    double sum=1,i;
     scanf_s("%d",&n);
-    for(int i=1;i<=n;i++){
+    for(i=1;i<=n;i++)
     sum*=((2*i)*(2*i))/((2*i-1)/(2i*+1));
-    }
-    outputsum=2*sum;
-    printf("%lf",outputsum);
+    printf("%lf",2*sum);
 }
