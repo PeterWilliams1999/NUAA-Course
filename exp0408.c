@@ -5,7 +5,7 @@ int main(){
     double sum=0,outputsum;
     scanf_s("%d",&n);
     for(int i=1;i<=n;i++){
-    sum+=(2i)*(2i)/(2i-1)/(2i+1);
+    sum+=((2*i)*(2*i))/((2*i-1)/(2i*+1));
     }
     outputsum=2*sum;
     printf("%lf",outputsum);
